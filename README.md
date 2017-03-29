@@ -1,7 +1,6 @@
 # glimmer-demo
 
-This README outlines the details of collaborating on this Glimmer application.
-A short introduction of this app could easily go here.
+<img width="888" alt="schermafbeelding 2017-03-30 om 01 41 18" src="https://cloud.githubusercontent.com/assets/232034/24481394/41700070-14ea-11e7-8c81-25f22ce0a651.png">
 
 ## Prerequisites
 
