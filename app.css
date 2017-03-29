@@ -1,0 +1,91 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  padding: 2em;
+  background-color: white; }
+
+.application {
+  display: flex; }
+
+.connection-status + .uptime-clock {
+  margin-left: 1em; }
+
+.connection-status {
+  border: 1px #E0E0E0 solid;
+  padding: 1em 1.25em;
+  display: flex;
+  align-items: center;
+  border-radius: 3px; }
+
+.connection-status__label {
+  color: #263238;
+  margin-right: 1em; }
+
+.connection-status__indicator {
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  color: #FFF;
+  background-blend-mode: overlay;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+  font-weight: 600; }
+
+.connection-status__indicator--online {
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  color: #FFF;
+  background-blend-mode: overlay;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+  font-weight: 600;
+  background-color: #00C853; }
+
+.connection-status__indicator--offline {
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  color: #FFF;
+  background-blend-mode: overlay;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+  font-weight: 600;
+  background-color: #DD2C00; }
+
+.uptime-clock {
+  border: 1px #E0E0E0 solid;
+  border-radius: 3px;
+  padding: 1em 1.25em;
+  display: flex;
+  align-items: center; }
+
+.uptime-clock__label {
+  color: #263238;
+  margin-right: 1em; }
+
+.uptime-clock__unit--seconds {
+  background-color: #263238;
+  border-radius: 3px;
+  color: #FFF;
+  padding: 0.5em;
+  display: inline-block;
+  background-blend-mode: overlay;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+  font-weight: 600;
+  margin-left: 0.5em; }
+
+.uptime-clock__unit--minutes {
+  background-color: #263238;
+  border-radius: 3px;
+  color: #FFF;
+  padding: 0.5em;
+  display: inline-block;
+  background-blend-mode: overlay;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+  font-weight: 600;
+  margin-left: 0.5em; }
+
+.uptime-clock__unit--hours {
+  background-color: #263238;
+  border-radius: 3px;
+  color: #FFF;
+  padding: 0.5em;
+  display: inline-block;
+  background-blend-mode: overlay;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+  font-weight: 600; }
