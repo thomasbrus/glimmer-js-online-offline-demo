@@ -1,0 +1,9 @@
+<div class="connection-status">
+  <label class="connection-status__label">Verbindingsstatus</label>
+
+  {{#if connected}}
+    <span class="connection-status__indicator--online">✔ Online</span>
+  {{else}}
+    <span class="connection-status__indicator--offline">✘ Offline</span>
+  {{/if}}
+</div>
