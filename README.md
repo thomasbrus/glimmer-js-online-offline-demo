@@ -1,7 +1,7 @@
 # glimmer-demo
 
 <a href="https://thomasbrus.github.io/glimmer-js-online-offline-demo/">
-  <img width="888" alt="schermafbeelding 2017-03-30 om 01 41 18" src="https://cloud.githubusercontent.com/assets/232034/24481394/41700070-14ea-11e7-8c81-25f22ce0a651.png">
+  <img width="888" alt="Glimmer demo screenshot" src="https://cloud.githubusercontent.com/assets/232034/24505387/0d6223e2-155a-11e7-8434-fe767aea9de9.png">
 </a>
 
 ## Prerequisites
